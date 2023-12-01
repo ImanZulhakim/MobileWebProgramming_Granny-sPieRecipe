@@ -13,15 +13,24 @@
   font-family: "Lucinda Sans Unicode", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 22pt;
+  letter-spacing: 0.25em;
+  display: inline-block;
 }
 
 body{
   color: #404040;
   font-size: 11pt;
   font-family: Georgia, Garamond, sans-serif;
-  background-image: url('../static/img/silverware.jpg');
+  background-image: url('../img/silverware.jpg');
+  background-repeat: repeat; /* repeat both horizontally and vertically */
+  background-attachment: fixed; /* fix the background image when scrolling */
+  background-size: cover;
+  background-color: #404040;
 }
 
+ul {
+  list-style-image: url('../img/pie_bullet.png');
+}
 
 /* Tooltip container */
 .tooltip {

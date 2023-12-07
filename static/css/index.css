@@ -1,5 +1,14 @@
 @charset "UTF-8";
 /*!
+    Assignment 1: Recipe
+    Author: Muhammad Iman Zulhakim Bin Mohd Zulkhori
+    Matric No.: 288430
+
+    File: index.css
+    Description: This is the css file for index.html.
+*/
+
+/*!
 * Start Bootstrap - Full Width Pics v5.0.6 (https://startbootstrap.com/template/full-width-pics)
 * Copyright 2013-2023 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-full-width-pics/blob/master/LICENSE)
@@ -612,7 +621,7 @@ progress {
 }
 
 .col {
-    flex: 1 0 0%;
+    flex: 1 0 0;
 }
 
 .row-cols-auto > * {
@@ -821,7 +830,7 @@ progress {
 
 @media (min-width: 576px) {
     .col-sm {
-        flex: 1 0 0%;
+        flex: 1 0 0;
     }
 
     .row-cols-sm-auto > * {
@@ -1035,7 +1044,7 @@ progress {
 
 @media (min-width: 768px) {
     .col-md {
-        flex: 1 0 0%;
+        flex: 1 0 0;
     }
 
     .row-cols-md-auto > * {
@@ -1249,7 +1258,7 @@ progress {
 
 @media (min-width: 992px) {
     .col-lg {
-        flex: 1 0 0%;
+        flex: 1 0 0;
     }
 
     .row-cols-lg-auto > * {
@@ -1463,7 +1472,7 @@ progress {
 
 @media (min-width: 1200px) {
     .col-xl {
-        flex: 1 0 0%;
+        flex: 1 0 0;
     }
 
     .row-cols-xl-auto > * {
@@ -1677,7 +1686,7 @@ progress {
 
 @media (min-width: 1400px) {
     .col-xxl {
-        flex: 1 0 0%;
+        flex: 1 0 0;
     }
 
     .row-cols-xxl-auto > * {

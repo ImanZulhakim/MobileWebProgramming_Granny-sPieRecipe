@@ -10,7 +10,7 @@
   color: #A4A400;
   background-color: #F0F0F0;
   text-decoration-line: underline;
-  font-family: "Lucinda Sans Unicode", Helvetica, Arial, sans-serif;
+  font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 22pt;
   letter-spacing: 0.25em;
@@ -21,7 +21,7 @@ body{
   color: #404040;
   font-size: 11pt;
   font-family: Georgia, Garamond, sans-serif;
-  background-image: url('../img/silverware.jpg');
+  background-image: url('../images/silverware.jpg');
   background-repeat: repeat; /* repeat both horizontally and vertically */
   background-attachment: fixed; /* fix the background image when scrolling */
   background-size: cover;
@@ -29,14 +29,13 @@ body{
 }
 
 ul {
-  list-style-image: url('../img/pie_bullet.png');
+  list-style-image: url('../images/pie_bullet.png');
 }
 
 /* Tooltip container */
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px black; /* If you want dots under the hoverable text */
 }
 
 /* Tooltip text */
@@ -49,12 +48,12 @@ ul {
   padding: 5px 0;
   border-radius: 6px;
 
-  /* Position the tooltip text - see examples below! */
+  /* Position the tooltip text*/
   position: absolute;
   z-index: 1;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
+/* Show the tooltip text when hover over the tooltip container */
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }

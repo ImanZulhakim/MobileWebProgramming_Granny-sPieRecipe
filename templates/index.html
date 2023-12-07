@@ -1,112 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Pie</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="../static/img/pie-icon.png" />
-        <link href="../static/css/index.css" rel="stylesheet" />
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Grandma's Lemon Meringue Pie</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="../static/images/pie-icon.png">
+    <link href="../static/css/index.css" rel="stylesheet">
+</head>
+<!--
+    Assignment 1: Recipe
+    Author: Muhammad Iman Zulhakim Bin Mohd Zulkhori
+    Matric No.: 288430
 
-    <style>
-        body{
-            background-image: url('https://source.unsplash.com/Zn1mePgxEkc/1200x800');
-            background-repeat: repeat; /* repeat both horizontally and vertically */
-            background-attachment: fixed; /* fix the background image when scrolling */
-            background-size: cover;
-            background-color: #404040;
-        }
-
-    </style>
-
-    <body>
-
-
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container" style="font-family: Georgia, serif">
-                <a class="navbar-brand" href="{{ url_for('home') }}">Grandma's Pie</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{{ url_for('home') }}">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ url_for('pie') }}">Pie Recipe</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <!-- Header - set the background image for the header in the line below-->
-        <header class="py-3" >
-            <div class="text-center my-5">
-                <h1 class="text-white fs-1 fw-bolder">Grandma's Best Pie</h1>
-                <p class="text-white-50 fs-4 mb-0">Welcome!</p>
-            </div>
-        </header>
-        <!-- Content section-->
-        <section class="py-1" style="background-color: white">
-            <div class="container my-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h2>Welcome to Grandma's Pies – </h2>
-                        <p class="lead">where tradition meets taste! Our beloved Grandma's Lemon Meringue Pie
-                            is a timeless classic that has delighted pie enthusiasts for generations.
-                            Let us guide you through the delicious journey of creating this culinary masterpiece with our easy-to-follow recipe.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Image element - set the background image for the header in the line below-->
-        <div class="py-3 bg-image-full">
-            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
-            <div style="height: 20rem"></div>
+    File: index.html
+    Description: This is the home page for the website with a description on why Grandma's
+    meringue lemon pie is the best and a link to pie.html that provide the recipe with complete
+    Ingredients and Directions on how to make Grandma's lemon meringue pie.
+    Additional Notes: You may use an optional CSS file named index.css.
+-->
+<body>
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/">Grandma's Pie</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pie">Pie Recipe</a>
+                </li>
+            </ul>
         </div>
-        <!-- Content section-->
-        <section class="py-1" style="background-color: white">
-            <div class="container my-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h2>Why Choose Grandma's Pie?</h2>
-                        <p class="lead">This cherished recipe, handed down through the years, is a favorite at Grandma's Pies.
-                            It's been enjoyed by pie enthusiasts for its unique thickening agents and the absence of milk, creating a heavenly texture.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+    </div>
+</nav>
 
-        <div class="py-3 bg-image-full">
-            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
-            <div style="height: 20rem"></div>
+<!-- Header -->
+<header class="py-3 bg-image-full">
+    <div class="text-center my-5">
+        <h1 class="text-white fs-1 fw-bolder">Grandma's Best Pie</h1>
+        <p class="text-white-50 fs-4 mb-0">Welcome!</p>
+    </div>
+</header>
+
+<!-- Content section-->
+<section class="py-1" style="background-color: white">
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <h2>Welcome to Grandma's Pies – </h2>
+                <p class="lead">where tradition meets taste! Our beloved Grandma's Lemon Meringue
+                    Pie
+                    is a timeless classic that has delighted pie enthusiasts for generations.
+                    Let us guide you through the delicious journey of creating this culinary
+                    masterpiece with our
+                    easy-to-follow recipe.</p>
+            </div>
         </div>
-
-        <section class="py-1" style="background-color: white">
-            <div class="container my-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h2>Indulge in the Perfect Pie Experience!</h2>
-                        <p class="lead">Are you ready to embark on a sweet adventure?
-                            Here's everything you need to know about Grandma's Lemon Meringue Pie,
-                            a delightful treat that's sure to become your new favorite.</p>
-
-                        <a href="{{ url_for('pie') }}" style="font-family: Georgia, serif">
-                            <button type="button" class="btn btn-dark"><i>Lets start!</i></button>
-                        </a>
-
-                    </div>
-
-
-                </div>
+    </div>
+</section>
+<div class="py-3 bg-image-full">
+    <div style="height: 20rem"></div>
+</div>
+<!-- Content section-->
+<section class="py-1" style="background-color: white">
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <h2>Why Choose Grandma's Pie?</h2>
+                <p class="lead">This cherished recipe, handed down through the years, is a favorite
+                    at Grandma's Pies.
+                    It's been enjoyed by pie enthusiasts for its unique thickening agents and the
+                    absence of milk,
+                    creating a heavenly texture.</p>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
 
-        <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Grandama Lemon Meringue Pie</p></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+<div class="py-3 bg-image-full">
+    <div style="height: 20rem"></div>
+</div>
+
+<section class="py-1" style="background-color: white">
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <h2>Indulge in the Perfect Pie Experience!</h2>
+                <p class="lead">Are you ready to embark on a sweet adventure?
+                    Here's everything you need to know about Grandma's Lemon Meringue Pie,
+                    a delightful treat that's sure to become your new favorite.</p>
+
+                <a href="/pie"
+                   style="font-family: Georgia, serif; display: inline-block; padding: 10px 20px;
+                   background-color: #343a40; color: #fff; text-decoration: none;
+                   border: 1px solid #343a40; border-radius: 5px;">
+                    <i>Lets start!</i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer-->
+<footer class="py-5 bg-dark">
+    <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Grandama Lemon
+        Meringue Pie</p></div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
